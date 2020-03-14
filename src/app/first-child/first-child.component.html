@@ -1,0 +1,10 @@
+<p>first-child works!</p>
+
+<ng-container *ngIf="course | async">
+    <h1>Course</h1>
+    <p> Name: {{_course.name}}</p>
+    <p> Price: {{_course.price}}</p>
+</ng-container>
+
+
+<app-second-child></app-second-child>
